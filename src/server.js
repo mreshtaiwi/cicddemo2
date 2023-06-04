@@ -9,7 +9,7 @@ const notFoundHandler = require('./handlers/404');
 const errorHandler = require('./handlers/500');
 
 app.get('/', (req, res) => {
-    res.send("hello from home route ");
+    res.send("hello from home route");
 });
 
 app.get('/data', stamper, sendRes)
